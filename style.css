@@ -2,17 +2,38 @@
 /*Hint: remember CSS for background colors: background-color: "red"; You need to check the HTML file called "warm-up.html*/
 /*Apply padding: 10px; to each element*/
 
-
-
-
+.animal{
+    background-color: lightyellow;
+    padding: 10px;
+    border: 2px solid red;
+}
+.plant{
+    background-color: lightgreen;
+    padding: 10px;
+    border: 2px solid green;
+}
+p{
+    margin-left: 20px;
+}
 /* 2. Please style the headings to be blue*/
 
-
+h2{
+    color: blue;
+}
 
 
 
 /*3. COMPLETE AFTER THE LESSON*/
 /*Please categorize the animals as wild or domestic. Use lightcoral for wild and lightcyan for domestic*/
 
-
-
+.wild{
+    color: lightcoral;
+}
+.domestic{
+    color: rgb(37, 206, 206);
+}
+.domesticated-animal{
+    background-color: lightgrey;
+    padding: 10px;
+    border: solid grey;
+}
